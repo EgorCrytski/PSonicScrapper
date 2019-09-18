@@ -6,6 +6,8 @@ require_relative './Classes/get_page' # frozen_string_literal: true
 cat_url = ARGV.first
 csv_name = ARGV.last
 
+#test push
+
 print "\n\nПолучаю список URL товаров в категории...\n\n"
 get_prod_urls = GetProdUrlsClass.new
 prod_urls = get_prod_urls.get_prod_urls(cat_url)
